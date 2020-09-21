@@ -1,5 +1,4 @@
 export function render(node, parent) {
-    node = new node
     parent.appendChild(node.root)
 }
 
